@@ -1,0 +1,10 @@
+# Example SIEM rule template
+rule_name: "Multiple Failed Logins"
+description: "Detects multiple failed logins within 10 minutes"
+conditions:
+  - type: failed_login
+    threshold: 5
+    timeframe: 10m
+actions:
+  - alert: true
+  - notify: SOC-Team
