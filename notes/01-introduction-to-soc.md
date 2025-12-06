@@ -10,4 +10,4 @@
 
 ## SLAs & workflows
 - Priority scheme, intake criteria, suppression vs tuning
-- Handoffs, shift logs, post-incident reviews
+- Handoffs, shift logs, post-incident reviews.
